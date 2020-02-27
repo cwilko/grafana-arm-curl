@@ -1,8 +1,6 @@
 kind: pipeline
 name: default
 
-platform: linux/arm
-
 steps:
 - name: docker  
   image: plugins/docker:linux-arm
