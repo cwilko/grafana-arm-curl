@@ -1,6 +1,8 @@
 kind: pipeline
 name: default
-platform: linux/arm
+platform:
+  os: linux
+  arch: arm
 
 steps:
 - name: docker  
