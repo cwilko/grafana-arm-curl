@@ -12,5 +12,5 @@ steps:
       from_secret: DOCKER_USERNAME
     password:
       from_secret: DOCKER_PASSWORD
-    repo: cwilko/grafana-arm-url
+    repo: cwilko/grafana-arm-curl
     tags: latest
